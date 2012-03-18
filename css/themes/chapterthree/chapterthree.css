@@ -1,0 +1,431 @@
+/* DRUPALCON DENVER SPECIFIC STYLINGS */
+#step-1 h1,
+#step-16 h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+#step-1 img,
+#step-16 img{
+  float: inherit;
+}
+#step-2 h1{
+  text-align: left;
+}
+#step-2 img{
+  margin: 30px -25px 0 0;
+}
+#step-3 h1,
+#step-4 h1{
+  font-size: 1em;
+}
+img{
+  clear: both;
+  float: right;
+  max-height: 500px;
+}
+#step-9{
+  background-image: url("/images/footer.png"), url('/images/4810973946_62b2779e1c_b.jpeg');
+  background-position:center bottom , 0 0;
+  color: #fff;
+}
+#step-10 img{
+  float: inherit;
+}
+#step-11 em{
+  bottom: 30px;
+  float: right;
+  position: relative;
+}
+#step-11 ol{
+  margin: 1.5em 0 0 3em;
+}
+#step-12{
+  background-image: url("/images/footer.png"), url('/images/4028500330_99885d0f48_z.jpg');
+  background-position:center bottom , 0 0;
+  color: #fff;
+}
+#step-12 h1{
+  text-shadow: 1px 1px #000;
+  font-family: "DroidSerifRegular";
+  font-size: 2em;
+}
+#step-14 pre{
+  font-size: .75em;
+  line-height: 1em;
+  margin: 0em 0 0 15em;
+}
+#step-14 img{
+  clear: both;
+  float: left;
+  margin-top: 6em;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+}
+#step-15{
+  background-image: url("/images/footer.png"), url('/images/114304997_c411d27ecd_b.jpg');
+  background-position:center bottom , -3px -3px;
+}
+#step-15 h1{
+  margin-left: -30px;
+  color: #003333;
+}
+
+/* OTHER STYLES */
+.center{
+  margin: 0 auto;
+  display:block;
+  text-align: center;
+}
+.diagonal{
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  background: #4C4C4C;
+  box-shadow: 1px 1px 26px #00A9A9;
+  color: #fff;
+  margin: 200px 0 0 -25px;
+  position: absolute;
+  text-align: center;
+}
+sup{
+  font-size: 50% !important;
+  vertical-align: text-top !important;
+}
+
+/*
+ * Font face
+ */
+@font-face {
+    font-family: 'DINOTRegular';
+    src: url('fonts/dinot-regular-webfont.eot?') format('eot'),
+         url('fonts/dinot-regular-webfont.woff') format('woff'),
+         url('fonts/dinot-regular-webfont.ttf') format('truetype'),
+         url('fonts/dinot-regular-webfont.svg#webfontcaIcPI7c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINOTBlack';
+    src: url('fonts/dinot-black-webfont.eot?') format('eot'),
+         url('fonts/dinot-black-webfont.woff') format('woff'),
+         url('fonts/dinot-black-webfont.ttf') format('truetype'),
+         url('fonts/dinot-black-webfont.svg#webfontcaIcPI7c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINOTBold';
+    src: url('fonts/dinot-bold-webfont.eot?') format('eot'),
+         url('fonts/dinot-bold-webfont.woff') format('woff'),
+         url('fonts/dinot-bold-webfont.ttf') format('truetype'),
+         url('fonts/dinot-bold-webfont.svg#webfontcaIcPI7c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINOTLight';
+    src: url('fonts/dinot-light-webfont.eot?') format('eot'),
+         url('fonts/dinot-light-webfont.woff') format('woff'),
+         url('fonts/dinot-light-webfont.ttf') format('truetype'),
+         url('fonts/dinot-light-webfont.svg#webfontcaIcPI7c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINOTMedium';
+    src: url('fonts/dinot-medium-webfont.eot?') format('eot'),
+         url('fonts/dinot-medium-webfont.woff') format('woff'),
+         url('fonts/dinot-medium-webfont.ttf') format('truetype'),
+         url('fonts/dinot-medium-webfont.svg#webfontcaIcPI7c') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSerifRegular';
+    src: url('fonts/droidserif-regular-webfont.eot?') format('eot'),
+         url('fonts/droidserif-regular-webfont.woff') format('woff'),
+         url('fonts/droidserif-regular-webfont.ttf') format('truetype'),
+         url('fonts/droidserif-regular-webfont.svg#webfontLmCgqjW6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSerifBold';
+    src: url('fonts/droidserif-bold-webfont.eot?') format('eot'),
+         url('fonts/droidserif-bold-webfont.woff') format('woff'),
+         url('fonts/droidserif-bold-webfont.ttf') format('truetype'),
+         url('fonts/droidserif-bold-webfont.svg#webfontLmCgqjW6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+h1{
+  font-family: DINOTBold;
+  font-size: 2.5em;
+  line-height: 2em;
+}
+h2{
+  font-size: 2.25em;
+  line-height: 2em;
+}
+h3{
+  font-size: 1.75em;
+  line-height: 1em;
+}
+h4{
+  font-size: 1em;
+  line-height: .75em;
+}
+h5{
+  font-size: .75em;
+  line-height: .5em;
+}
+h6{
+  font-size: .5em;
+  line-height: .5em;
+}
+body {
+  line-height: 1; }
+
+ol, ul {
+   }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.invisible,
+.element-invisible {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px; }
+
+.invisible.focusable:active,
+.invisible.focusable:focus,
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static !important;
+  width: auto; }
+
+body {
+  font-family: DINOTRegular, Helvetica, "Lucida Grande", Verdana, sans-serif;
+  min-height: 768px;
+  -moz-background-size: 100% 349px;
+  -webkit-background-size: 100% 349px;
+  -o-background-size: 100% 349px;
+  background-size: 100% 349px;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  color: #787a64; }
+
+b, strong {
+  font-weight: bold; }
+
+i, em {
+  font-style: italic; }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  
+  /* DON'T STYLE LINKS DIFFERENTLY until clicking them will work 
+  color: #00a9a9;
+  text-decoration: underline;
+  padding: 0 0.1em;
+  -moz-transition-property: background;
+  -webkit-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s; */
+}
+a:hover{
+  border-bottom: 1px dotted #00a9a9;
+  color: #00a9a9;
+}
+
+pre, code {
+  font-family: monospace, sans-serif; }
+
+/* COMMON STEP STYLES */
+.step {
+  padding: 40px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: DINOTRegular, Helvetica, "Lucida Grande", Verdana, sans-serif;
+  font-size: 48px;
+  line-height: 1.5; }
+
+/* fade out inactive slides */
+.step {
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; }
+
+.step:not(.active) {
+  opacity: 0.3; }
+
+/* Simple Slideshow Styles */
+.simple-slideshow .step:not(.active) {
+  opacity: 0; }
+
+/* overview step */
+#overview {
+  z-index: -1;
+  padding: 0; }
+
+/* on overview step everything is visible */
+#impress.step-overview .step {
+  opacity: 1;
+  cursor: pointer; }
+
+/*
+ * SLIDE STEP STYLES
+ *
+ * inspired by: http://html5slides.googlecode.com/svn/trunk/styles.css
+ *
+ * ;)
+ */
+.slide {
+  display: block;
+  width: 800px;
+  height: 600px;
+  padding: 40px 60px;
+  background: white;
+  font-family: DINOTRegular, Helvetica, "Lucida Grande", Verdana, sans-serif;
+  color: #787a64;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  -moz-box-shadow: 15px 15px 30px 1px black;
+  -webkit-box-shadow: 15px 15px 30px 1px black;
+  -o-box-shadow: 15px 15px 30px 1px black;
+  box-shadow: 15px 15px 30px 1px black; }
+  .slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+    margin-top: 100px; }
+    .slide q strong {
+      white-space: nowrap; }
+  .slide p {
+    margin: 1.25em 0; }
+  .slide h1 {
+    line-height: 100%; }
+  .slide ul, .slide ol, .slide p, .slide h2, .slide h3, .slide h4, .slide h5, .slide h6 {
+    margin-top: 1em; }
+  .slide li {
+    margin: 0 0 0.5em; }
+
+/* Drupalcon Denver 2012 Slide templates */
+.title-slide{
+  height: 640px;
+  width: 1024px;
+  margin: 0 auto;
+  display:block;
+  text-align: center;
+}
+.regular-slide{
+  background: transparent url('/images/footer.png') no-repeat center bottom;
+  width: 930px;
+}
+.drupalcon-slide {
+  background-image: url('images/dc-denver2012.png?1329017942'), -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 30, color-stop(1%, #0f397d), color-stop(30%, #082049));
+  background-image: url('images/dc-denver2012.png?1329017942'), -webkit-radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
+  background-image: url('images/dc-denver2012.png?1329017942'), -moz-radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
+  background-image: url('images/dc-denver2012.png?1329017942'), -o-radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
+  background-image: url('images/dc-denver2012.png?1329017942'), -ms-radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
+  background-image: url('images/dc-denver2012.png?1329017942'), radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
+  background-size: 1024px 768px;
+  width: 1024px;
+  height: 768px; }
+
+.wood-slide {
+  background-image: url('images/dc-denver2012-title-bg.png?1329017942');
+  background-size: 1025px 768px;
+  text-align: center;
+  padding: 150px 90px 40px 90px;
+  width: 1024px;
+  height: 768px; }
+
+/* IMPRESS NOT SUPPORTED STYLES */
+.fallback-message {
+  font-family: sans-serif;
+  line-height: 1.3;
+  display: none;
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #E4C652;
+  background: #EEDC94; }
+  .fallback-message p {
+    margin-bottom: 10px; }
+
+.impress-not-supported .step {
+  position: relative;
+  opacity: 1;
+  margin: 20px auto; }
+.impress-not-supported .fallback-message {
+  display: block; }
+
+/* PRINT STYLES */
+@media print {
+  .step {
+    page-break-after: always; } }

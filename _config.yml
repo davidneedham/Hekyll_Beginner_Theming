@@ -1,8 +1,9 @@
 pygments: true
 permalink: "/:title"
+markdown: maruku
 
 ## Hekyll Configuration ##
-theme: "drupalcon" # add the name of a theme. Your theme's name should also be the name of the css file. (e.g. "hekyll" will be /css/themes/hekyll/hekyll.css).
+theme: "chapterthree" # add the name of a theme. Your theme's name should also be the name of the css file. (e.g. "hekyll" will be /css/themes/hekyll/hekyll.css).
 
 simple-slideshow: true  # true/false -- when enabled, slide positioning is ignored and a simple cross-fade will be used to transition between slides.
 

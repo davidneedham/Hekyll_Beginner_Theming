@@ -1,18 +1,13 @@
 ---
 layout: default
-title: "Beginner Theming"
+title: ""
 published: true
 classes:
- - slide
- - drupalcon-title
+ - naked
 data:
-  x: 1000
+  x: 0
   y: 0
 
 ---
 
-# Beginner Theming #
-
-## Presented by David Needham ##
-
-### _Drupalcon Denver 2012_ ###
+<img src="images/rose_theme_folder.png" />

@@ -10,4 +10,5 @@ data:
   y: 0
 
 ---
-<img src="images/clients1.png" />
+<h1 class="diagonal">html, css, php, jQuery...</h1>
+<img src="images/code.png" />

@@ -1,18 +1,23 @@
 ---
 layout: default
-title: "Beginner Theming"
+title: ""
 published: true
 classes:
  - slide
- - drupalcon-title
+ - regular-slide
 data:
-  x: 1000
+  x: 0
   y: 0
 
 ---
 
-# Beginner Theming #
+# 5 Favorite theming tools
+_(in no particular order)_
 
-## Presented by David Needham ##
+<img src="images/toolbox.jpg" />
 
-### _Drupalcon Denver 2012_ ###
+1. [Admin Menu](http://www.drupal.org/project/admin_menu)
+2. [Devel](http://www.drupal.org/project/devel)
+3. [Theme Developer](http://www.drupal.org/project/devel_themer)
+4. [Style Guide](http://www.drupal.org/project/styleguide)
+5. Firebug / Inspector

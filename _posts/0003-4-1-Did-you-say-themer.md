@@ -10,4 +10,5 @@ data:
   y: 0
 
 ---
-<img src="images/clients1.png" />
+<h1 class="diagonal">Theming <br />Magic!<sup>&trade;</sup></h1>
+<img src="images/screenshot.png" />

@@ -1,16 +1,13 @@
 ---
 layout: default
-title: "Beginner Theming"
+title: ""
 published: true
 classes:
  - slide
- - drupalcon-title
+ - regular-slide
 data:
-  x: 1000
+  x: 0
   y: 0
 
 ---
-
-# Beginner Theming #
-
-## Presented by David Needham ##
+<img src="images/clients2.png" />

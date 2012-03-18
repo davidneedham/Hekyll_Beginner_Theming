@@ -1,18 +1,19 @@
 ---
 layout: default
-title: "Beginner Theming"
+title: ""
 published: true
 classes:
  - slide
- - drupalcon-title
+ - title-slide
 data:
-  x: 1000
+  x: 0
   y: 0
-
 ---
-
-# Beginner Theming #
-
-## Presented by David Needham ##
-
-### _Drupalcon Denver 2012_ ###
+<img src="images/C3LogoHuge.png" width="400px" />
+<br />
+<br />
+<h1>Beginner Theming</h1>
+<br />
+<p>Presented by David Needham<br />
+&#8226; on March 19th, 2012 &#8226;</p>
+<h3 class="center">Drupalcon Denver 2012</h3>

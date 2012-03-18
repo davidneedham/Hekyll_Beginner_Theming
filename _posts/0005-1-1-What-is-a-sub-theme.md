@@ -1,18 +1,16 @@
 ---
 layout: default
-title: "Beginner Theming"
+title: ""
 published: true
 classes:
  - slide
- - drupalcon-title
+ - regular-slide
 data:
-  x: 1000
+  x: 0
   y: 0
 
 ---
 
-# Beginner Theming #
+# What is a sub-theme?
 
-## Presented by David Needham ##
-
-### _Drupalcon Denver 2012_ ###
+<img src="images/themes_cascade2.png"/>

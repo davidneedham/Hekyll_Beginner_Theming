@@ -4,11 +4,10 @@ title: ""
 published: true
 classes:
  - slide
- - drupalcon-intro
+ - regular-slide
 data:
   x: 0
   y: 0
 
 ---
-
-<!-- This slide intentionally left blank. -->
+# What is a theme? #
