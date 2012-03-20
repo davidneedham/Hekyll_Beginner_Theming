@@ -16,7 +16,7 @@ h1{text-align: left;}
 </style>
 
 
-<img src="/images/c3facts.jpg" />
+<img src="images/c3facts.jpg" />
 <br />
 - Volunteers at [BADCamp](http://badcamp.net)
 - Hosts of [DrupalCon SF](http://sf2010.drupal.org/) in 2010
