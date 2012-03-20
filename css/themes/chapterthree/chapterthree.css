@@ -24,7 +24,7 @@ img{
   max-height: 500px;
 }
 #step-9{
-  background-image: url("/Hekyll_Beginner_Theming/images/footer.png"), url('/Hekyll_Beginner_Theming/images/4810973946_62b2779e1c_b.jpeg');
+  background-image: url("../../../images/footer.png"), url('../../../images/4810973946_62b2779e1c_b.jpeg');
   background-position:center bottom , 0 0;
   color: #fff;
 }
@@ -40,7 +40,7 @@ img{
   margin: 1.5em 0 0 3em;
 }
 #step-12{
-  background-image: url("/Hekyll_Beginner_Theming/images/footer.png"), url('/Hekyll_Beginner_Theming/images/4028500330_99885d0f48_z.jpg');
+  background-image: url("../../../images/footer.png"), url('../../../images/4028500330_99885d0f48_z.jpg');
   background-position:center bottom , 0 0;
   color: #fff;
 }
@@ -62,7 +62,7 @@ img{
   -moz-transform: rotate(-5deg);
 }
 #step-15{
-  background-image: url("/Hekyll_Beginner_Theming/images/footer.png"), url('/Hekyll_Beginner_Theming/images/114304997_c411d27ecd_b.jpg');
+  background-image: url("../../../images/footer.png"), url('../../../images/114304997_c411d27ecd_b.jpg');
   background-position:center bottom , -3px -3px;
 }
 #step-15 h1{
@@ -382,7 +382,7 @@ pre, code {
   text-align: center;
 }
 .regular-slide{
-  background: transparent url('/Hekyll_Beginner_Theming/images/footer.png') no-repeat center bottom;
+  background: transparent url('../../../images/footer.png') no-repeat center bottom;
   width: 930px;
 }
 .drupalcon-slide {
@@ -393,14 +393,6 @@ pre, code {
   background-image: url('images/dc-denver2012.png?1329017942'), -ms-radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
   background-image: url('images/dc-denver2012.png?1329017942'), radial-gradient(50% 50%, #0f397d 1%, #082049 30%);
   background-size: 1024px 768px;
-  width: 1024px;
-  height: 768px; }
-
-.wood-slide {
-  background-image: url('images/dc-denver2012-title-bg.png?1329017942');
-  background-size: 1025px 768px;
-  text-align: center;
-  padding: 150px 90px 40px 90px;
   width: 1024px;
   height: 768px; }
 
