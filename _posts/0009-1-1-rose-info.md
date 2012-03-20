@@ -17,7 +17,7 @@ data:
     name = Rose
     core = 7.x 
     engine = phptemplate 
-    stylesheets[all][] = style.css
+    stylesheets[all][] = styles/rose.css
     
     regions[header] = Header
     regions[help] = Help
