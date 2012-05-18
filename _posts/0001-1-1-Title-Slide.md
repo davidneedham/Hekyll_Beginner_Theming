@@ -15,5 +15,5 @@ data:
 <h1>Beginner Theming</h1>
 <br />
 <p>Presented by David Needham<br />
-&#8226; on March 19th, 2012 &#8226;</p>
-<h3 class="center">Drupalcon Denver 2012</h3>
+&#8226; on May 18th, 2012 &#8226;</p>
+<h3 class="center">DrupalCamp Twin Cities 2012</h3>
